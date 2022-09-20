@@ -16,6 +16,22 @@ $ git clone https://github.com/breatheco-de/python-flask-api-tutorial
 ```
 💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
+1. Run the following command to create a new virtual environment with python 3 on it:
+
+```bash
+$ pipenv --three
+```
+
+2. Run the following command on your terminal to install the flask package:
+
+```bash
+$ pipenv install flask
+```
+
+3. To run the server:
+```bash
+$ pipenv run python src/app.py
+```
 
 ## About the project we are going to build
 
